@@ -10,7 +10,7 @@ if not exist "%USERPROFILE%\.ssh" mkdir "%USERPROFILE%\.ssh"
 
 :: Start Pageant with OpenSSH agent support so native windows SSH can use the agent.
 :: Later the OpenSSH config has the pageant.conf included to delegate the required named pipe.
-start /B "Pageant" "C:\Program Files\PuTTY\pageant.exe" --openssh-config  "%pageantIncludeFile%" "%USERPROFILE%\.ssh.your.privkey.ppk" 
+start /B "Pageant" "C:\Program Files\PuTTY\pageant.exe" --openssh-config  "%pageantIncludeFile%" "%USERPROFILE%\.ssh\your.privkey.ppk" 
 
 echo.
 echo For WSL SSH forwarding please ensure you setup the WSL instance with:
