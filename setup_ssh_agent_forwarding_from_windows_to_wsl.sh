@@ -65,7 +65,7 @@ install_package() {
   fi
 }
 
-# Ensure unzip and socat are installed
+# Ensure unzip, socat and curl are installed
 install_package unzip
 install_package socat
 install_package curl
