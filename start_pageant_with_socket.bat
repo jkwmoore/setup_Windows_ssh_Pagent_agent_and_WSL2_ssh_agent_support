@@ -41,7 +41,7 @@ if %errorlevel% equ 0 (
 
 	:: Overwrite the original file
 	move /Y "%tempFile%" "%sshConfigFile%" >nul
-    echo.
+	echo.
 	echo "Include pageant.conf" has been prepended successfully.
 )
 
