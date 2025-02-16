@@ -7,7 +7,7 @@ It allows SSH keys loaded in Pageant on Windows to be accessible within WSL, mak
 and the SSH command within your WSL instances.
 
 ## Features
-- Automatically starts Pageant only login with OpenSSH agent support on Windows.
+- Automatically starts Pageant on login with OpenSSH agent support on Windows.
 - Configures WSL to forward the SSH agent from Windows.
 - Uses npiperelay to bridge the Windows named pipe to a Unix socket in WSL.
 - Supports different Linux distributions (Debian, RedHat, Alpine, Arch, etc.).
